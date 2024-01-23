@@ -1,0 +1,62 @@
+body {
+    /* Ici on utilise le sélecteur body pour appliquer une police et une taille par défaut pour les éléments */
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+    background-color: #1F2039;
+  }
+
+h1 {
+    font-size: 3.5em;
+    color: #A5B4FC;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: #F9F8FF;
+}
+
+a {
+    color: #242424;
+    text-decoration: none;
+}
+
+em {
+    color: #A5B4FC;
+    font-style: normal;
+}
+
+p, li {
+    font-size: 1.1em;
+    color: #F9F8FF;
+}
+
+.en-tete, .pied-page {
+    background-color: white;
+}
+
+.cta {
+    background: linear-gradient(#8e86b5, #acaeed);
+    color: white;
+    border-radius: 50px;
+}
+
+.carre-contenu {
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+}
+
+/*balise pour une class
+.surbrillance {
+    font-size: 5em;
+}*/
+
+/*balise pour un id
+#logo {
+    height: 52;
+    width: 52;
+}*/
+
+/*
+balise {
+    propriete: valeur;
+}*/
