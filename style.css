@@ -20,6 +20,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 em {
     color: #A5B4FC;
     font-style: normal;
@@ -34,16 +38,79 @@ p, li {
     background-color: white;
 }
 
+.lien-icon:hover {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
 .cta {
     background: linear-gradient(#8e86b5, #acaeed);
     color: white;
     border-radius: 50px;
 }
 
+.cta:hover {
+    background: linear-gradient(#696484, #8788BA);
+    text-decoration: none;
+}
+
 .carre-contenu {
     border-right: 1px solid #8e86b5;
     border-bottom: 1px solid #8e86b5;
 }
+
+
+
+/*apparait lorsque la classe mon-element est survolée avec la souris*/
+.mon-element:hover {
+    background-color: #BEAEE2;
+    color: white;
+}
+
+/*apparait lorsqu'un titre h1 est survolé avec la souris*/
+h1:hover {
+    color: #CDF0EA;
+}
+
+/*apparait lorsqu'un paragraphe est survolé avec la souris*/
+p:hover {
+    color: #F9CEEE;
+}
+
+/*apparait lorsqu'un lien est en train d'être cliqué */
+a:active {
+    background-color: #C1FFD7;
+}
+
+/*apparait lorsqu'un lien est sélectionné (avec tab par exemple)*/
+a:focus {
+    background-color: #FCFFA6;
+}
+
+/*apparait lorsqu'un lien a déjà été sélectionné/visité*/
+a:visited {
+    color: black;
+}
+
+/*applique le style à toutes les balises <em> situées à l'intérieur d'une balise <h3>
+h3 em {
+ style
+}*/
+
+/*applique le style à toutes la première balise <p> située après un titre <h3>
+h3 + p {
+ style
+}*/
+
+/*applique le style à tous les liens hypertexte <a> qui possèdent l'attribut title
+a[title] {
+    style
+}*/
+
+/*applique le style à tous les liens hypertexte <a> qui possèdent le mot "ici" dans leur attribut
+a[title*="ici"] {
+    style
+}*/
 
 /*balise pour une class
 .surbrillance {
