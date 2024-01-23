@@ -34,7 +34,7 @@ p, li {
     color: #F9F8FF;
 }
 
-.en-tete, .pied-page {
+header, footer {
     background-color: white;
 }
 
@@ -97,7 +97,7 @@ h3 em {
  style
 }*/
 
-/*applique le style à toutes la première balise <p> située après un titre <h3>
+/*applique le style à la première balise <p> située après un titre <h3>
 h3 + p {
  style
 }*/
