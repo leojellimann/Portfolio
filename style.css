@@ -47,7 +47,7 @@ nav {
 }
 
 nav a {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .cta {
@@ -107,19 +107,63 @@ section {
     margin-bottom: 80px;
 }
 
-.accueil-photos div{
+.grid-projets {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 400px;
+    gap: 15px;
+}
+
+.grid-projets img {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+
+/*.accueil-photos div{
     display: flex;
     flex-direction: row;
     gap: 15px;
-    flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 15px;
-}
+}*/
 
 .a-propos-main {
     width: 50%;
     margin: auto;
 }
+
+.portfolio-section-photos {
+    background-color: white;
+}
+
+.portfolio-section-photos h2 {
+    color: #242424;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.grid-paysages{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 15px;
+}
+
+.grid-portraits{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 15px;
+}
+
+.grid-paysages img, .grid-portraits img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
 
 
 
