@@ -26,7 +26,7 @@ h1 {
 }
 
 h2 {
-    color: #F9F8FF;
+    color: black;
 }
 
 p, li {
@@ -36,7 +36,18 @@ p, li {
 
 header, footer {
     background-color: white;
-    padding: 20px 50px 20px 50px;
+    padding: 20px 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    margin-left: 20px;
 }
 
 .cta {
@@ -77,42 +88,71 @@ section {
     padding: 80px;
 }
 
+.accueil-infos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+.accueil-photos {
+    background-color: white;
+    padding: 80px;
+}
+
+.accueil-photos h2 {
+    color: #242424;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.accueil-photos div{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
 .a-propos-main {
     width: 50%;
     margin: auto;
 }
 
 
-/*apparait lorsque la classe mon-element est survolée avec la souris*/
+
+/*apparait lorsque la classe mon-element est survolée avec la souris
 .mon-element:hover {
     background-color: #BEAEE2;
     color: white;
-}
+}*/
 
-/*apparait lorsqu'un titre h1 est survolé avec la souris*/
+/*apparait lorsqu'un titre h1 est survolé avec la souris
 h1:hover {
     color: #CDF0EA;
-}
+}*/
 
-/*apparait lorsqu'un paragraphe est survolé avec la souris*/
+/*apparait lorsqu'un paragraphe est survolé avec la souris
 p:hover {
     color: #F9CEEE;
-}
+}*/
 
-/*apparait lorsqu'un lien est en train d'être cliqué */
+/*apparait lorsqu'un lien est en train d'être cliqué
 a:active {
     background-color: #C1FFD7;
-}
+}*/
 
-/*apparait lorsqu'un lien est sélectionné (avec tab par exemple)*/
+/*apparait lorsqu'un lien est sélectionné (avec tab par exemple)
 a:focus {
     background-color: #FCFFA6;
-}
+}*/
 
-/*apparait lorsqu'un lien a déjà été sélectionné/visité*/
+/*apparait lorsqu'un lien a déjà été sélectionné/visité
 a:visited {
     color: black;
-}
+}*/
 
 /*applique le style à toutes les balises <em> situées à l'intérieur d'une balise <h3>
 h3 em {
